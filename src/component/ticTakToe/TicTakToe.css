@@ -1,0 +1,54 @@
+.title {
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span {
+  margin: 15px;
+  color: red;
+  transition: 2s;
+}
+
+.title span:hover {
+  color: yellow;
+}
+
+.reset {
+  padding: 15px 55px;
+  color: white;
+  background-color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #1f3540;
+  border: none;
+  outline: none;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.boxes {
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #1f3540;
+  border: 2px solid white;
+}
+
+.boxes img {
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+}
